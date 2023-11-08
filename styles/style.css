@@ -326,10 +326,6 @@ svg {
         height: auto;
         width: auto;
         margin: 1rem 15rem 2rem 15rem;
-        border-radius: 20px;
-        background-color: var(--cor--terciaria);
-        padding: 25px 35px;
-        font-family: var(--fonte--primaria)
     }
 
 }

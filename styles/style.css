@@ -1,42 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Sono:wght@200;400;600&display=swap');
 
 :root {
-    --cor--primaria: #1B2430;
-    --cor--secundaria: #D6D5A8;
-    --cor--terciaria: #51557E;
-    --cor--detalhe: #816797;
-    --cor--selecionado: #D6D5A8;
-
-    --light--cor--primaria: #F1EFEF;
-    --light--cor--secundaria: #191717;
-    --light--cor--terciaria: #CCC8AA;
-    --light--cor--detalhe: #060607;
-    --light--cor--selecionado: #221f1f;
+    --cor--primaria: #222831;
+    --cor--secundaria: #EEEEEE;
+    --cor--terciaria: #00ADB5;
+    --cor--detalhe: #393E46;
+    --cor--selecionado: #EEEEEE;
 
     --cor--icone--botao--light: #1B2430;
-    --cor-botao-light: #51557E;
-    --cor-botao-light-selecionado: #D6D5A8;
+    --cor-botao-light: #00ADB5;
+    --cor-botao-light-selecionado: #FFFBF5;
 
     --fonte--primaria: 'Sono', sans-serif;;
     --fonte--secundaria: 'Roboto Mono', monospace;
+
+    --cor-descricao-projetos: #EEEEEE;
 }
 
 [data-theme="dark"]{
-    --cor--primaria: #F1EFEF;
-    --cor--secundaria: #191717;
-    --cor--terciaria: #CCC8AA;
-    --cor--detalhe: #7c7c7d;
-    --cor--selecionado: #221f1f;
+    --cor--primaria: #EEEEEE;
+    --cor--secundaria: #222831;
+    --cor--terciaria: #00ADB5;
+    --cor--detalhe: #393E46;
+    --cor--selecionado: #222831;
 
-    --light--cor--primaria: #1B2430;
-    --light--cor--secundaria: #D6D5A8;
-    --light--cor--terciaria: #51557E;
-    --light--cor--detalhe: #816797;
-    --light--cor--selecionado: #D6D5A8;
 
-    --cor--icone--botao--light: #F1EFEF;
-    --cor-botao-light: #CCC8AA;
-    --cor-botao-light-selecionado: #51557E;
+    --cor--icone--botao--light: #EEEEEE;
+    --cor-botao-light: #00ADB5;
+    --cor-botao-light-selecionado: #222831;
 }
 
 * {
@@ -183,9 +174,7 @@ svg {
 }
 
 .apresentacao_imagem {
-    border-radius: 70%;
-    border-color: var(--cor--terciaria);
-    width: 50%;
+    width: 28vw;
 }
 
 .rodape {
@@ -262,7 +251,7 @@ svg {
     width: 430px;
     margin-bottom: 2rem;
     border-radius: 20px;
-    background-color: var(--cor--terciaria);
+    background-color: var(--cor--detalhe);
     padding: 25px 35px;
     font-family: var(--fonte--primaria)
 }
@@ -281,15 +270,16 @@ svg {
 
 .titulo_projeto {
     font-size: 2.5rem;
-    color: var(--cor--secundaria);
+    color: var(--cor-descricao-projetos);
 }
 
 .descricao_projeto {
-    color: var(--cor--secundaria);
+    color: var(--cor-descricao-projetos);
     margin: 15px 0 25px 0;
 }
 
 .descricao_tec {
+    color: var(--cor-descricao-projetos);
     margin-bottom: 0.5rem;
 }
 
@@ -300,8 +290,8 @@ svg {
 
 .link_projeto {
     text-decoration: none;
-    color: var(--cor--terciaria);
-    background-color: var(--cor--secundaria);
+    color: var(--cor--secundaria);
+    background-color: var(--cor--primaria);
     padding: 10px 20px;
     border-radius: 23px;
     justify-content: space-between;
@@ -310,13 +300,13 @@ svg {
 
 .link_collab {
     text-decoration: none;
-    color: var(--cor--primaria);
+    color: var(--cor--terciaria);
 }
 
 .link_projeto:hover {
-    color: var(--cor--selecionado);
-    background-color: var(--cor--detalhe);
-    transition: 0.4s;
+    color: var(--cor--primaria);
+    background-color: var(--cor--selecionado);
+    transition: 0.6s;
 }
 
 .link_collab:hover {

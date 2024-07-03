@@ -317,7 +317,7 @@ svg {
 @media (max-width: 1380px) {
     .caixa_projetos {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: row;
         flex-wrap: wrap;
         gap: 2rem;
         margin: 0 4rem 8rem 4rem;

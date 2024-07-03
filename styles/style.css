@@ -318,20 +318,34 @@ svg {
     .caixa_projetos {
         display: flex;
         justify-content: space-between;
-        flex-direction: row;
         flex-wrap: wrap;
         gap: 2rem;
         margin: 0 4rem 8rem 4rem;
     }
 
     .lista_projetos {
-        
         height: auto;
         width: auto;
-        margin: 1rem 15rem 2rem 15rem;
+        margin: 1rem 0; /* Ajusta as margens para melhor espaçamento vertical */
+    }
+}
+
+@media (min-width: 1381px) {
+    .caixa_projetos {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 2rem; /* Mantém um espaço de 2rem entre os elementos */
+        margin: 0 4rem 8rem 4rem; /* Ajuste a margem conforme necessário */
     }
 
+    .lista_projetos {
+        height: auto;
+        width: calc(33.333% - 2rem); /* Distribui os itens em três colunas e mantém o gap */
+        margin: 1rem 0; /* Ajusta as margens para melhor espaçamento vertical */
+    }
 }
+
 
 @media (max-width: 1021px) {
     

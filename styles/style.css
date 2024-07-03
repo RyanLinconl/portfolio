@@ -319,7 +319,7 @@ svg {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        gap: 2rem;
+        gap: 1rem;
         margin: 0 4rem 8rem 4rem;
     }
 
@@ -335,7 +335,7 @@ svg {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        gap: 2rem; /* Mantém um espaço de 2rem entre os elementos */
+        gap: 1rem; /* Mantém um espaço de 2rem entre os elementos */
         margin: 0 4rem 8rem 4rem; /* Ajuste a margem conforme necessário */
     }
 

@@ -318,6 +318,7 @@ svg {
     .caixa_projetos {
         display: flex;
         flex-direction: column-reverse;
+        flex-wrap: wrap;
         margin: 0 4rem 8rem 4rem;
     }
 

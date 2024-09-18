@@ -1,7 +1,7 @@
 # portfolio
-Meu portfólio!
+Meu portfólio antigo!
 
-www.ryanlira.com
+https://ryan-lira.vercel.app
 
 # Tecnologias utilizadas
 ## Front end
